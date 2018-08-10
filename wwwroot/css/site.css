@@ -33,3 +33,84 @@
         display: none;
     }
 }
+
+.side{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding: 0% 5%;
+    margin-top: 3%;
+}
+
+.infoside{
+    padding: 0;
+    margin:0% 2%;
+}
+
+.table{
+    margin-top: 3%;
+}
+
+.title{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+#index .btn-primary,#plan .btn-primary{
+    margin-left: 30%;
+}
+
+.col-form-label{
+    width: 27%;
+}
+
+.col-sm-10{
+    width: 70%;
+}
+
+.topsection h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.topsection a{
+    text-decoration: underline;
+    display: inline-block;
+    width: 140px;
+}
+
+.topsection h3{
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+
+#dashboard table{
+    border: 2px solid black;
+}
+#dashboard td, #dashboard th{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#dashboard thead{
+    background-color: #E9ECEF;
+}
+
+#dashboard .btn-primary{
+    margin-left: 88%;
+}
+
+#info h2{
+    margin-left: 3%;
+}
+
+.guests{
+    margin-top: 5%;
+    margin-left:9%;
+}
+
+.googleapi{
+    border: 2px dotted red;
+    height: 400px;
+}

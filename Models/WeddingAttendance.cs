@@ -8,10 +8,11 @@ namespace WeddingPlanner.Models
 {
     public class WeddingAttendance
     {
+        public int WeddingAttendanceId {get;set;}
+
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public DateTime CreatedAt {get;set;}
         
-
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public DateTime UpdatedAt {get;set;}
 

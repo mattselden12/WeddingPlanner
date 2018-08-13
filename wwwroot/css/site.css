@@ -61,7 +61,7 @@
 }
 
 .col-form-label{
-    width: 27%;
+    width: 28%;
 }
 
 .col-sm-10{
@@ -88,7 +88,19 @@
 #dashboard table{
     border: 2px solid black;
 }
-#dashboard td, #dashboard th{
+#dashboard td{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#dashboard td button{
+    background:none!important;
+    color: #337AB7;
+    cursor: pointer;
+    padding: 0;
+}
+
+#dashboard th{
     border-left: 2px solid black;
     border-right: 2px solid black;
 }
@@ -108,9 +120,4 @@
 .guests{
     margin-top: 5%;
     margin-left:9%;
-}
-
-.googleapi{
-    border: 2px dotted red;
-    height: 400px;
 }

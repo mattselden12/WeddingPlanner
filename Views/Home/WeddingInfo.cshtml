@@ -1,18 +1,22 @@
+@model List<User>
+
 <div id="info">
     <div class="topsection">
-        <h1>Dwight and Angela's Wedding</h1>
-        <h3><a href=#>Log Out</a></h3>
-        <h3><a href=#>Dashboard</a></h3>
+        <h1>@ViewBag.WedderOne and @ViewBag.WedderTwo's Wedding</h1>
+        <h3><a href="~/logout">Log Out</a></h3>
+        <h3><a href="~/dashboard">Dashboard</a></h3>
     </div>
-    <h2>Date: August 25, 2018</h2>
+    <h2>Date: @ViewBag.Date</h2>
     <div class="side infoside">
         <h2>Guests:</h2>
         <div class="guests">
-            <h4>Oscar Nunez</h4>
-            <h4>Kevin Malone</h4>
+            @foreach(var guest in @Model)
+            {
+                <h4>@guest.FirstName @guest.LastName</h4>
+            }
         </div>
     </div>
     <div class="side infoside googleapi">
-        Google Maps Api
+            <iframe width="520" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyAbxTibAHA6y1XSB5_RXnb0gVUB3AgeGiM&q=@ViewBag.Address" allowfullscreen></iframe>
     </div>
 </div>

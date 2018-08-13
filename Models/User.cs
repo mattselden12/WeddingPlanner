@@ -26,15 +26,15 @@ namespace WeddingPlanner.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public DateTime UpdatedAt {get;set;}
 
-        public int WeddingId {get;set;}
-
-        public Wedding Wedding {get;set;}
-
+        public List<Wedding> CreatedWeddings {get;set;}
+        
         public List<WeddingAttendance> Attending {get;set;}
 
         public User()
         {
             Attending = new List<WeddingAttendance>();
+            CreatedWeddings = new List<Wedding>();
         }
+
     }
 }

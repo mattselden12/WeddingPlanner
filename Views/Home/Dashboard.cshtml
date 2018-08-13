@@ -1,7 +1,10 @@
-﻿<div id="dashboard">
+﻿@using Microsoft.AspNetCore.Http
+@model List<Wedding>
+
+<div id="dashboard">
     <div class="topsection">
         <h1>Welcome to the Wedding Planner</h1>
-        <h3><a href=#>Log Out</a></h3>
+        <h3><a href="~/logout">Log Out</a></h3>
     </div>
     <table class="table table-striped">
         <thead>
@@ -13,26 +16,49 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Jim & Pam</td>
-                <td>Oct 12 2017</td>
-                <td>5</td>
-                <td>RSVP</td>
-            </tr>
-            <tr>
-                <td>Dwight & Angela</td>
-                <td>June 25 2018</td>
-                <td>18</td>
-                <td>Un-RSVP</td>
-            </tr>
-            <tr>
-                <td>Mark</td>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>twitter</td>
-            </tr>
+            @foreach(var wedding in @Model){
+                <tr>
+                    <td><a href="~/weddinginfo/@wedding.WeddingId">@wedding.WedderOne & @wedding.WedderTwo</a></td>
+                    <td>@String.Format("{0: MMM d, yyyy }", wedding.Date)</td>
+                    <td>@wedding.Attenders.Count</td>
+                    @{
+                        string Blean = "false";
+                        foreach(var attender in wedding.Attenders){
+                            if(attender.UserId == Context.Session.GetInt32("UserId"))
+                            {
+                                Blean = "true";
+                            }
+                        }
+                        if(wedding.UserId == Context.Session.GetInt32("UserId"))
+                        {
+                            <td>
+                                <form asp-action="DeleteWedding" asp-controller="Home" method="post">
+                                        <input type="hidden" name="weddingid" value="@wedding.WeddingId">
+                                        <button type="submit" class="btn btn-outline-primary" style="outline:none;">Delete</button>
+                                </form>
+                            </td>
+                        }
+                        else if(Blean == "true"){
+                            <td>
+                                <form asp-action="Un_RSVP" asp-controller="Home" method="post">
+                                        <input type="hidden" name="weddingid" value="@wedding.WeddingId">
+                                        <button type="submit" class="btn btn-outline-primary" style="outline:none;">Un-RSVP</button>
+                                </form>
+                            </td>
+                        }
+                        else{
+                            <td>
+                                <form asp-action="RSVP" asp-controller="Home" method="post">
+                                        <input type="hidden" name="weddingid" value="@wedding.WeddingId">
+                                        <button type="submit" class="btn btn-outline-primary" style="outline:none;">RSVP</button>
+                                </form>
+                            </td>
+                        }
+                    }
+                </tr>
+            }
         </tbody>
       </table>
-    <a class="btn btn-primary" href="#">New Wedding</a>
+    <a class="btn btn-primary" href="~/planwedding">New Wedding</a>
 
 </div>

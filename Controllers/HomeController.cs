@@ -211,7 +211,6 @@ namespace WeddingPlanner.Controllers
                 }
                 return View("PlanWedding");
             }
-
         }
 
         [HttpPost]

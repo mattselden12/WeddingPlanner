@@ -1,11 +1,22 @@
-C:\Users\matth\Desktop\Coding Dojo\c#_stack\ORM\WeddingPlanner\bin\Debug\netcoreapp2.0\WeddingPlanner.deps.json
-C:\Users\matth\Desktop\Coding Dojo\c#_stack\ORM\WeddingPlanner\bin\Debug\netcoreapp2.0\WeddingPlanner.runtimeconfig.json
-C:\Users\matth\Desktop\Coding Dojo\c#_stack\ORM\WeddingPlanner\bin\Debug\netcoreapp2.0\WeddingPlanner.runtimeconfig.dev.json
-C:\Users\matth\Desktop\Coding Dojo\c#_stack\ORM\WeddingPlanner\bin\Debug\netcoreapp2.0\WeddingPlanner.dll
-C:\Users\matth\Desktop\Coding Dojo\c#_stack\ORM\WeddingPlanner\bin\Debug\netcoreapp2.0\WeddingPlanner.pdb
-C:\Users\matth\Desktop\Coding Dojo\c#_stack\ORM\WeddingPlanner\obj\Debug\netcoreapp2.0\WeddingPlanner.csprojResolveAssemblyReference.cache
-C:\Users\matth\Desktop\Coding Dojo\c#_stack\ORM\WeddingPlanner\obj\Debug\netcoreapp2.0\WeddingPlanner.csproj.CoreCompileInputs.cache
-C:\Users\matth\Desktop\Coding Dojo\c#_stack\ORM\WeddingPlanner\obj\Debug\netcoreapp2.0\WeddingPlanner.AssemblyInfoInputs.cache
-C:\Users\matth\Desktop\Coding Dojo\c#_stack\ORM\WeddingPlanner\obj\Debug\netcoreapp2.0\WeddingPlanner.AssemblyInfo.cs
-C:\Users\matth\Desktop\Coding Dojo\c#_stack\ORM\WeddingPlanner\obj\Debug\netcoreapp2.0\WeddingPlanner.dll
-C:\Users\matth\Desktop\Coding Dojo\c#_stack\ORM\WeddingPlanner\obj\Debug\netcoreapp2.0\WeddingPlanner.pdb
+C:/Users/matth/Desktop/Coding Dojo/c#_stack/ORM/WeddingPlanner/bin/Debug/netcoreapp2.0/WeddingPlanner.deps.json
+C:/Users/matth/Desktop/Coding Dojo/c#_stack/ORM/WeddingPlanner/bin/Debug/netcoreapp2.0/WeddingPlanner.runtimeconfig.json
+C:/Users/matth/Desktop/Coding Dojo/c#_stack/ORM/WeddingPlanner/bin/Debug/netcoreapp2.0/WeddingPlanner.runtimeconfig.dev.json
+C:/Users/matth/Desktop/Coding Dojo/c#_stack/ORM/WeddingPlanner/bin/Debug/netcoreapp2.0/WeddingPlanner.dll
+C:/Users/matth/Desktop/Coding Dojo/c#_stack/ORM/WeddingPlanner/bin/Debug/netcoreapp2.0/WeddingPlanner.pdb
+C:/Users/matth/Desktop/Coding Dojo/c#_stack/ORM/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.csprojResolveAssemblyReference.cache
+C:/Users/matth/Desktop/Coding Dojo/c#_stack/ORM/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.csproj.CoreCompileInputs.cache
+C:/Users/matth/Desktop/Coding Dojo/c#_stack/ORM/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.AssemblyInfoInputs.cache
+C:/Users/matth/Desktop/Coding Dojo/c#_stack/ORM/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.AssemblyInfo.cs
+C:/Users/matth/Desktop/Coding Dojo/c#_stack/ORM/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.dll
+C:/Users/matth/Desktop/Coding Dojo/c#_stack/ORM/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.pdb
+/Users/mattandashlie/Desktop/mattCoding/WeddingPlanner/bin/Debug/netcoreapp2.0/WeddingPlanner.deps.json
+/Users/mattandashlie/Desktop/mattCoding/WeddingPlanner/bin/Debug/netcoreapp2.0/WeddingPlanner.runtimeconfig.json
+/Users/mattandashlie/Desktop/mattCoding/WeddingPlanner/bin/Debug/netcoreapp2.0/WeddingPlanner.runtimeconfig.dev.json
+/Users/mattandashlie/Desktop/mattCoding/WeddingPlanner/bin/Debug/netcoreapp2.0/WeddingPlanner.dll
+/Users/mattandashlie/Desktop/mattCoding/WeddingPlanner/bin/Debug/netcoreapp2.0/WeddingPlanner.pdb
+/Users/mattandashlie/Desktop/mattCoding/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.csprojAssemblyReference.cache
+/Users/mattandashlie/Desktop/mattCoding/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.csproj.CoreCompileInputs.cache
+/Users/mattandashlie/Desktop/mattCoding/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.AssemblyInfoInputs.cache
+/Users/mattandashlie/Desktop/mattCoding/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.AssemblyInfo.cs
+/Users/mattandashlie/Desktop/mattCoding/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.dll
+/Users/mattandashlie/Desktop/mattCoding/WeddingPlanner/obj/Debug/netcoreapp2.0/WeddingPlanner.pdb
